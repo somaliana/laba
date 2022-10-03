@@ -10,11 +10,7 @@ int main() {
     scanf("%d", &x);
     float subres = sqrt(x);
     int subres1 = sqrt(x);
-    if (subres1 == subres) {
-        printf("Yes");
-    }
-    else {
-        printf("No");
-    }
+    
+    printf("%s", (subres==subres1) ? "yes" : "no");
 
 }
